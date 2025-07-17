@@ -1,5 +1,5 @@
 module "ec2_instance" {
-  source        = "./terraform-module"
+  source        = "https://github.com/Prabha211/ABC/tree/e9506940a4fa2094b9fc4c241b244eac5b68dcec/terraform-module"
   region        = "us-east-1"
   ami           = "ami-0c55b159cbfafe01e"  # Replace with a valid AMI ID
   instance_type = "t2.micro"
